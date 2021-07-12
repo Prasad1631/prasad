@@ -1,0 +1,490 @@
+[2020-05-24 00:13:37.217] [   9672] [    MAIN] [EVT] [CheckUpdate:175] Sciter script: Start downloading config at https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 00:13:37.217] [   9672] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(3008C8E0)
+[2020-05-24 00:13:37.217] [   9672] [   FSAPP] [INF] [HTTPLoader.:206] BaseHTTPLoader[3008C8E0] - load URL: https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update [proxy: :0]
+[2020-05-24 00:13:37.217] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[38A0CD40:94]::IOStream()
+[2020-05-24 00:13:37.217] [   9672] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(38A0CD40)
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[390DEFA0:95]::IOStream()
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[390DEFA0]::onResolved() ...
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [FLT] [HTTPRequest:333] MyHTTPLoader[3008C8E0] data not received for URL [https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update]
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[390DEFA0] closed
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[38A0CD40] closed
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [DBG] [HTTPLoader.:723] BaseHTTPLoader[3008C8E0] - closed (in buffer 0 bytes)
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[390DEFA0:95]::~IOStream()
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(38A0CD40)
+[2020-05-24 00:13:37.269] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[38A0CD40:94]::~IOStream()
+[2020-05-24 00:13:37.297] [   9672] [    MAIN] [EVT] [HTTPRequest:347] Status code: httpStatus=0
+[2020-05-24 00:13:37.297] [   9672] [    MAIN] [FLT] [CheckUpdate:195] Sciter script: Error loading https://nc-appcfg01.freeconferencecall.com/config 
+[2020-05-24 00:13:37.297] [   9672] [    MAIN] [EVT] [HTTPRequest:306] Cancelled HTTP request to https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 00:13:37.297] [   9672] [    MAIN] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(3008C8E0)
+[2020-05-24 09:00:13.358] [   9672] [    MAIN] [EVT] [CheckUpdate:175] Sciter script: Start downloading config at https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 09:00:13.373] [   9672] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(3008BA70)
+[2020-05-24 09:00:13.373] [   9672] [   FSAPP] [INF] [HTTPLoader.:206] BaseHTTPLoader[3008BA70] - load URL: https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update [proxy: :0]
+[2020-05-24 09:00:13.373] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[38A0D640:96]::IOStream()
+[2020-05-24 09:00:13.375] [   9672] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(38A0D640)
+[2020-05-24 09:00:13.375] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[390DE238:97]::IOStream()
+[2020-05-24 09:00:13.375] [   9672] [    MAIN] [EVT] [APIv3.tis   :68] Sciter script: [webapi] Start request PhoneNumberBinding params={ttl:14400,guid:"c868107f-ca13-4a64-beb0-9d254c8c0e04"} and null
+[2020-05-24 09:00:13.375] [   9672] [    MAIN] [INF] [WebServiceP:132] [cx][webapi] Start request
+[2020-05-24 09:00:13.375] [   9672] [    MAIN] [INF] [WebAPIv3Wra:409] [webapi] bindPhoneNumber with ttl=14400, guid=c868107f-ca13-4a64-beb0-9d254c8c0e04
+[2020-05-24 09:00:13.375] [   9672] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(300649E0)
+[2020-05-24 09:00:13.375] [   9672] [   FSAPP] [INF] [HTTPLoader.:206] BaseHTTPLoader[300649E0] - load URL: https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=402&sig=02b5e926f7f0a475c60b2b67ca2c6e22 [proxy: :0]
+[2020-05-24 09:00:13.864] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[38A0CD40:98]::IOStream()
+[2020-05-24 09:00:13.864] [   9672] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(38A0CD40)
+[2020-05-24 09:00:13.864] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[390DF210:99]::IOStream()
+[2020-05-24 09:00:13.864] [   9672] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[390DE238]::onResolved() ...
+[2020-05-24 09:00:13.864] [   9672] [   FSAPP] [FLT] [HTTPRequest:333] MyHTTPLoader[3008BA70] data not received for URL [https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update]
+[2020-05-24 09:00:13.864] [   9672] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[390DE238] closed
+[2020-05-24 09:00:13.880] [   9672] [    MAIN] [EVT] [HTTPRequest:347] Status code: httpStatus=0
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[38A0D640] closed
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [DBG] [HTTPLoader.:723] BaseHTTPLoader[3008BA70] - closed (in buffer 0 bytes)
+[2020-05-24 09:00:13.880] [   9672] [    MAIN] [FLT] [CheckUpdate:195] Sciter script: Error loading https://nc-appcfg01.freeconferencecall.com/config 
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[390DE238:97]::~IOStream()
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(38A0D640)
+[2020-05-24 09:00:13.880] [   9672] [    MAIN] [EVT] [HTTPRequest:306] Cancelled HTTP request to https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[38A0D640:96]::~IOStream()
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[390DF210]::onResolved() ...
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [FLT] [HTTPLoader.:152] BaseHTTPLoader[300649E0] can't load URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=402&sig=02b5e926f7f0a475c60b2b67ca2c6e22]: The requested name is valid, but no data of the requested type was found
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [EVT] [HTTPRequest:253] Status code: httpStatus=0
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [EVT] [HTTPRequest:348] Detected downloaded data type 1
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [FLT] [HTTPRequest:243] MyHTTPLoader[300649E0] data not received for URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=402&sig=02b5e926f7f0a475c60b2b67ca2c6e22]
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[390DF210] closed
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[38A0CD40] closed
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [DBG] [HTTPLoader.:723] BaseHTTPLoader[300649E0] - closed (in buffer 0 bytes)
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [FLT] [HTTPRequest:243] MyHTTPLoader[300649E0] data not received for URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=402&sig=02b5e926f7f0a475c60b2b67ca2c6e22]
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(3008BA70)
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[390DF210:99]::~IOStream()
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(38A0CD40)
+[2020-05-24 09:00:13.880] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[38A0CD40:98]::~IOStream()
+[2020-05-24 09:00:14.036] [   9672] [    MAIN] [FLT] [APIv3.tis   :89] Sciter script: [webapi] Failed request PhoneNumberBinding: error = [#network,undefined]
+[2020-05-24 09:00:14.036] [   9672] [   FSAPP] [EVT] [HTTPRequest:437] Deleting HTTP request to https://app.freeconferencecall.com/api/v3/phonenumbers/binding
+[2020-05-24 09:00:14.036] [   9672] [   FSAPP] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(300649E0)
+[2020-05-24 09:00:14.269] [   9672] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-24 09:00:14.269] [   9672] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-24 09:00:14.269] [   9672] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 1
+[2020-05-24 09:00:14.269] [   9672] [    MAIN] [INF] [TrayWindow.:368] OS power state event: Automatic Resume Event ( PBT_APMRESUMEAUTOMATIC ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-24 09:00:14.969] [   9672] [    MAIN] [INF] [TrayWindow.:363] OS power state event: Resume Event ( PBT_APMRESUMESUSPEND ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-24 09:00:14.969] [   9672] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-24 09:00:14.969] [   9672] [    MAIN] [INF] [TrayWindow.:392] OS power state event: You are on AC Power
+[2020-05-24 09:00:15.000] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:00:28.796] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:00:34.047] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:00:34.047] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:01:28.798] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:01:28.798] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:01:30.831] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:01:30.831] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:01:33.745] [   9672] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-24 09:01:33.745] [   9672] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-24 09:01:33.745] [   9672] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 0
+[2020-05-24 09:01:34.026] [   9672] [    MAIN] [INF] [TrayWindow.:359] OS power state event: Suspend Event ( PBT_APMSUSPEND ) Occurred & Captured Possibly due to Stand-By/Hibernate/Sleep Operation.
+System is transiting to suspended state
+[2020-05-24 09:01:34.026] [   9672] [   FSAPP] [EVT] [MeetingClie:161] stopClient
+[2020-05-24 09:01:34.027] [   9672] [   FSAPP] [DBG] [SIPEngine.c:264] SIPEngine::notify [2]
+[2020-05-24 09:01:34.027] [   9672] [   WSSIP] [DBG] [SIPEngine.c:107] SIPEngine::doNotify [2]
+[2020-05-24 09:01:34.027] [   9672] [   FSAPP] [EVT] [MeetingCli:1273] MeetingClient::onTransportCallHungUp iCode = 3
+[2020-05-24 09:08:13.011] [   9672] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-24 09:08:13.011] [   9672] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-24 09:08:13.011] [   9672] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 1
+[2020-05-24 09:08:13.279] [   9672] [    MAIN] [INF] [TrayWindow.:363] OS power state event: Resume Event ( PBT_APMRESUMESUSPEND ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-24 09:08:13.325] [   9672] [    MAIN] [INF] [TrayWindow.:368] OS power state event: Automatic Resume Event ( PBT_APMRESUMEAUTOMATIC ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-24 09:08:23.794] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:09:02.463] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:09:02.463] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:09:20.444] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:09:20.444] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:10:02.465] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:10:02.465] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:10:16.971] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:10:16.971] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:11:02.466] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:11:02.466] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:11:13.706] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:11:13.706] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:12:02.467] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:12:02.467] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:12:10.473] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:12:10.473] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:13:02.468] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:13:02.468] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:13:07.153] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:13:07.153] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:14:02.469] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:14:02.469] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:14:03.822] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:14:03.822] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:15:02.471] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 3 times
+[2020-05-24 09:15:02.471] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:15:19.866] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:15:19.866] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:16:02.481] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:16:02.482] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:16:16.593] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:16:16.593] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:17:02.487] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:17:02.487] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:17:13.203] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:17:13.204] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:18:02.487] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:18:02.487] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:18:09.971] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:18:09.971] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:19:02.489] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:19:02.489] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:19:06.759] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:19:06.759] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:20:02.490] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:20:02.490] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:20:03.427] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:20:03.427] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:21:02.492] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 3 times
+[2020-05-24 09:21:02.492] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:21:19.268] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:21:19.268] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:22:02.500] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:22:02.500] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:22:16.054] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:22:16.054] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:23:02.501] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:23:02.501] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:23:12.859] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:23:12.859] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:24:02.502] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:24:02.502] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:24:09.633] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:24:09.633] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:25:02.503] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:25:02.503] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:25:06.484] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:25:06.484] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:26:02.504] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:26:02.504] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:26:03.224] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:26:03.224] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:27:02.506] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 3 times
+[2020-05-24 09:27:02.506] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:27:18.554] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:27:18.554] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:28:02.506] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:28:02.506] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:28:15.355] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:28:15.355] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:29:02.507] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:29:02.507] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:29:12.162] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:29:12.162] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:30:02.507] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:30:02.507] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:30:08.861] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:30:08.861] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:31:02.509] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:31:02.509] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:31:05.721] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:31:05.721] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:32:02.510] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:32:02.510] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:32:02.525] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 1 times
+[2020-05-24 09:32:02.525] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:32:02.848] [   9672] [   WSSIP] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:32:21.470] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:33:02.510] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:33:02.510] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:33:18.336] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:33:18.336] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:34:02.511] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:34:02.511] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:34:15.009] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:34:15.009] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:34:57.894] [   9672] [    MAIN] [DBG] [TrayWindow.:407] The previous message repeated 2 times
+[2020-05-24 09:34:57.894] [   9672] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-24 09:34:57.894] [   9672] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-24 09:34:57.894] [   9672] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 0
+[2020-05-24 09:35:02.160] [   9672] [    MAIN] [INF] [TrayWindow.:359] OS power state event: Suspend Event ( PBT_APMSUSPEND ) Occurred & Captured Possibly due to Stand-By/Hibernate/Sleep Operation.
+System is transiting to suspended state
+[2020-05-24 09:35:02.160] [   9672] [   FSAPP] [EVT] [MeetingClie:161] stopClient
+[2020-05-24 09:35:02.160] [   9672] [   FSAPP] [DBG] [SIPEngine.c:264] SIPEngine::notify [2]
+[2020-05-24 09:35:02.160] [   9672] [   WSSIP] [DBG] [SIPEngine.c:107] SIPEngine::doNotify [2]
+[2020-05-24 09:35:02.160] [   9672] [   FSAPP] [EVT] [MeetingCli:1273] MeetingClient::onTransportCallHungUp iCode = 3
+[2020-05-24 09:35:02.220] [   9672] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-24 09:35:02.220] [   9672] [    MAIN] [INF] [TrayWindow.:396] OS power state event: You are on Battery Power
+[2020-05-24 09:35:02.521] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:43:11.419] [   9672] [    MAIN] [DBG] [TrayWindow.:407] The previous message repeated 2 times
+[2020-05-24 09:43:11.419] [   9672] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-24 09:43:11.419] [   9672] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-24 09:43:11.419] [   9672] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 1
+[2020-05-24 09:43:11.653] [   9672] [    MAIN] [INF] [TrayWindow.:368] OS power state event: Automatic Resume Event ( PBT_APMRESUMEAUTOMATIC ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-24 09:43:11.661] [   9672] [    MAIN] [INF] [TrayWindow.:363] OS power state event: Resume Event ( PBT_APMRESUMESUSPEND ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-24 09:43:17.334] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:43:44.061] [   9672] [    MAIN] [DBG] [TrayWindow.:381] The previous message repeated 1 times
+[2020-05-24 09:43:44.061] [   9672] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-24 09:43:44.061] [   9672] [    MAIN] [INF] [TrayWindow.:392] OS power state event: You are on AC Power
+[2020-05-24 09:43:44.946] [   9672] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-24 09:43:44.946] [   9672] [    MAIN] [INF] [TrayWindow.:392] OS power state event: You are on AC Power
+[2020-05-24 09:43:55.232] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:44:07.627] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:44:14.204] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:44:14.204] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:45:07.639] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:45:07.639] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:45:11.039] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:45:11.039] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:46:07.640] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:46:07.640] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:46:07.907] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 1 times
+[2020-05-24 09:46:07.907] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:46:07.960] [   9672] [   WSSIP] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:46:26.821] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:47:07.641] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:47:07.641] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:47:23.655] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:47:23.655] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:48:07.652] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:48:07.652] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:48:20.222] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:48:20.222] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:49:07.662] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:49:07.662] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:49:16.750] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:49:16.750] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:50:07.664] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:50:07.664] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:50:13.523] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:50:13.523] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:51:07.681] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:51:07.681] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:51:10.206] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:51:10.206] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:52:07.682] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 3 times
+[2020-05-24 09:52:07.682] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:52:25.723] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:52:25.723] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:53:07.683] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:53:07.683] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:53:22.158] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:53:22.158] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:54:07.685] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:54:07.685] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:54:18.870] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:54:18.870] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:55:07.694] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:55:07.694] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:55:15.421] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:55:15.421] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:55:48.838] [   9672] [    MAIN] [DBG] [Util.tis   :508] The previous message repeated 1 times
+[2020-05-24 09:55:48.838] [   9672] [    MAIN] [EVT] [Util.tis   :508] Sciter script: <<<<< Got event: screenSharing.display_configuration_changed {eventId:"screenSharing.display_configuration_changed"}
+[2020-05-24 09:55:49.091] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 5668
+[2020-05-24 09:55:49.091] [   9672] [    MAIN] [FLT] [SharedItems:205] The previous message repeated 1 times
+[2020-05-24 09:55:49.091] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 10860
+[2020-05-24 09:55:49.092] [   9672] [    MAIN] [FLT] [SharedItems:205] The previous message repeated 2 times
+[2020-05-24 09:55:49.092] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 5668
+[2020-05-24 09:55:49.093] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 10860
+[2020-05-24 09:55:49.093] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 5668
+[2020-05-24 09:55:49.093] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 6300
+[2020-05-24 09:55:49.158] [   9672] [    MAIN] [DBG] [MonitorsLis:177] MonitorsListWin::EnumFriendlyMonitorNames - new monitor: path = \\?\DISPLAY#LGD0484#4&222a1c49&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7} friendly name =  video output technology = -2147483648 flags = 6
+[2020-05-24 09:55:49.158] [   9672] [    MAIN] [DBG] [MonitorsList:59] DPI for monitor #0 - 96x96
+[2020-05-24 09:55:49.158] [   9672] [    MAIN] [DBG] [MonitorsList:78] MonitorsListWin::updateMonitor - new monitor: deviceId = \\?\DISPLAY#LGD0484#4&222a1c49&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7} name = Generic PnP Monitor
+[2020-05-24 09:55:49.158] [   9672] [    MAIN] [DBG] [MonitorsList:88] MonitorsListWin::updateMonitor - change name from: Generic PnP Monitor to: Mobile PC Display
+[2020-05-24 09:55:54.462] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:56:07.695] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:56:13.345] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:56:13.345] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:57:07.709] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:57:07.709] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:57:10.066] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:57:10.066] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:57:35.738] [   9672] [    MAIN] [DBG] [Util.tis   :508] The previous message repeated 1 times
+[2020-05-24 09:57:35.738] [   9672] [    MAIN] [EVT] [Util.tis   :508] Sciter script: <<<<< Got event: screenSharing.display_configuration_changed {eventId:"screenSharing.display_configuration_changed"}
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 5668
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] The previous message repeated 1 times
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 10860
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] The previous message repeated 2 times
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 5668
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 10860
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 5668
+[2020-05-24 09:57:35.753] [   9672] [    MAIN] [FLT] [SharedItems:205] Can't open process 6300
+[2020-05-24 09:57:35.785] [   9672] [    MAIN] [DBG] [MonitorsLis:177] MonitorsListWin::EnumFriendlyMonitorNames - new monitor: path = \\?\DISPLAY#LGD0484#4&222a1c49&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7} friendly name =  video output technology = -2147483648 flags = 6
+[2020-05-24 09:57:35.785] [   9672] [    MAIN] [DBG] [MonitorsList:59] DPI for monitor #0 - 96x96
+[2020-05-24 09:57:35.785] [   9672] [    MAIN] [DBG] [MonitorsList:78] MonitorsListWin::updateMonitor - new monitor: deviceId = \\?\DISPLAY#LGD0484#4&222a1c49&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7} name = Generic PnP Monitor
+[2020-05-24 09:57:35.785] [   9672] [    MAIN] [DBG] [MonitorsList:88] MonitorsListWin::updateMonitor - change name from: Generic PnP Monitor to: Mobile PC Display
+[2020-05-24 09:57:47.814] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:58:07.710] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 1 times
+[2020-05-24 09:58:07.710] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:58:25.751] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:58:25.751] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 09:59:07.725] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 09:59:07.725] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 09:59:22.537] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 09:59:22.537] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:00:07.727] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:00:07.727] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:00:14.055] [   9672] [    MAIN] [DBG] [CheckUpdate:175] The previous message repeated 2 times
+[2020-05-24 10:00:14.055] [   9672] [    MAIN] [EVT] [CheckUpdate:175] Sciter script: Start downloading config at https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 10:00:14.055] [   9672] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(3008C8E0)
+[2020-05-24 10:00:14.055] [   9672] [   FSAPP] [INF] [HTTPLoader.:206] BaseHTTPLoader[3008C8E0] - load URL: https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update [proxy: :0]
+[2020-05-24 10:00:14.055] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[38A0D540:100]::IOStream()
+[2020-05-24 10:00:14.055] [   9672] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(38A0D540)
+[2020-05-24 10:00:14.055] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[390DE850:101]::IOStream()
+[2020-05-24 10:00:14.351] [   9672] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[390DE850]::onResolved() ...
+[2020-05-24 10:00:14.351] [   9672] [   FSAPP] [DBG] [ClientConnec:98] ClientConnection[390DE850]::tryConnect() to 12.7.192.74:443
+[2020-05-24 10:00:14.773] [   9672] [   FSAPP] [DBG] [ClientConne:160] ClientConnection[390DE850] connected from local port 52632
+[2020-05-24 10:00:14.961] [   9672] [   FSAPP] [MA2] [WinSSLEngin:117] Free SSPIContextBuffer => 35C81EC8
+[2020-05-24 10:00:15.429] [   9672] [   FSAPP] [MA2] [WinSSLEngin:117] Free SSPIContextBuffer => 2F008018
+[2020-05-24 10:00:15.992] [   9672] [   FSAPP] [DBG] [WinSSLEngin:352] WinSSLTransport[38A0D540]::doHandshake handshake finished. Stream sizes: header=13, trailer=16, block=16, maxMessage=16384
+[2020-05-24 10:00:15.992] [   9672] [   FSAPP] [INF] [Transport.c:150] SSLTransport[38A0D540] - SSL handshake completed, protocol: WinSSL
+[2020-05-24 10:00:16.101] [   9672] [   FSAPP] [DBG] [WinSSLEngin:513] WinSSLTransport[38A0D540]::checkCertificate - certificate verification for [nc-appcfg01.freeconferencecall.com] status: 0 'OK'
+[2020-05-24 10:00:16.101] [   9672] [   FSAPP] [IO2] [HTTPLoader.:467] BaseHTTPLoader [3008C8E0] send request:
+GET /config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update HTTP/1.1
+Host: nc-appcfg01.freeconferencecall.com
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Wyde HTTP loader
+Cache-control: no-cache
+Connection: close
+
+
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [DBG] [HTTPLoader.:627] BaseHTTPLoader[3008C8E0] received 250 bytes
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [DG2] [HTTPLoader.:545] BaseHTTPLoader[3008C8E0] HTTP response header received (143 bytes):
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 24 May 2020 04:30:21 GMT
+Content-Type: application/json
+Content-Length: 107
+Connection: close
+
+
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [DBG] [HTTPLoader.:485] BaseHTTPLoader[3008C8E0] received HTTP response 200 [OK]
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [INF] [HTTPLoader.:548] BaseHTTPLoader[3008C8E0] response received (content length: 107, is chunked: NO)
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [DBG] [HTTPLoader.:590] Skip bytes is 0
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [EVT] [HTTPLoader.:367] BaseHTTPLoader[3008C8E0] load finished (107 of 107 bytes)
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [DG2] [HTTPRequest:327] Finished State
+[2020-05-24 10:00:16.507] [   9672] [    MAIN] [EVT] [HTTPRequest:414] Detected downloaded data type 2
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[390DE850] closed
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[38A0D540] closed
+[2020-05-24 10:00:16.507] [   9672] [    MAIN] [EVT] [HTTPRequest:419] Loaded data: {"action":"no_update","outlook":{"version":{"force":"false","value":"0.9.28.0"}},"request":"check_update"}
+
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [DBG] [HTTPLoader.:723] BaseHTTPLoader[3008C8E0] - closed (in buffer 107 bytes)
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [PNC] [ReadBuffer.c:89] ReadBuffer::onNewData() - processed 0 from 250 bytes
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[390DE850:101]::~IOStream()
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(38A0D540)
+[2020-05-24 10:00:16.507] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[38A0D540:100]::~IOStream()
+[2020-05-24 10:00:16.523] [   9672] [    MAIN] [EVT] [HTTPRequest:306] Cancelled HTTP request to https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 10:00:16.523] [   9672] [    MAIN] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(3008C8E0)
+[2020-05-24 10:00:18.929] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:01:07.742] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:01:07.742] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:01:15.706] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:01:15.706] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:02:07.754] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:02:07.754] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:02:12.365] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:02:12.365] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:03:07.766] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:03:07.766] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:03:08.844] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:03:08.844] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:04:07.769] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 3 times
+[2020-05-24 10:04:07.769] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:04:24.303] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:04:24.303] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:05:01.237] [   9672] [    MAIN] [DBG] [TrayWindow.:381] The previous message repeated 1 times
+[2020-05-24 10:05:01.237] [   9672] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-24 10:05:01.237] [   9672] [    MAIN] [INF] [TrayWindow.:392] OS power state event: You are on AC Power
+[2020-05-24 10:05:02.727] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:05:07.782] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:05:21.909] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:05:21.909] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:06:07.794] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:06:07.794] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:06:18.680] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:06:18.680] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:07:07.804] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:07:07.804] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:07:15.283] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:07:15.283] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:08:07.807] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:08:07.807] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:08:14.297] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:08:14.297] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:09:07.808] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:09:07.808] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:09:11.563] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:09:11.563] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:10:07.817] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:10:07.817] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:10:09.582] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:10:09.582] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:11:07.819] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 3 times
+[2020-05-24 10:11:07.819] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:11:25.063] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:11:25.063] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:12:07.829] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:12:07.829] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:12:21.710] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:12:21.710] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:13:07.830] [   9672] [    asio] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:13:07.831] [   9672] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:13:18.335] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:13:18.335] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:14:07.833] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] The previous message repeated 2 times
+[2020-05-24 10:14:07.833] [   9672] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-24 10:14:14.739] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-24 10:14:14.739] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-24 10:14:33.581] [   9672] [    MAIN] [DBG] [TrayWindow.:407] The previous message repeated 1 times
+[2020-05-24 10:14:33.581] [   9672] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-24 10:14:33.581] [   9672] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-24 10:14:33.581] [   9672] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 0
+[2020-05-24 10:14:40.868] [   9672] [    MAIN] [INF] [TrayWindow.:359] OS power state event: Suspend Event ( PBT_APMSUSPEND ) Occurred & Captured Possibly due to Stand-By/Hibernate/Sleep Operation.
+System is transiting to suspended state
+[2020-05-24 10:14:40.868] [   9672] [   FSAPP] [EVT] [MeetingClie:161] stopClient
+[2020-05-24 10:14:40.868] [   9672] [   FSAPP] [DBG] [SIPEngine.c:264] SIPEngine::notify [2]
+[2020-05-24 10:14:40.868] [   9672] [   WSSIP] [DBG] [SIPEngine.c:107] SIPEngine::doNotify [2]
+[2020-05-24 10:14:40.868] [   9672] [   FSAPP] [EVT] [MeetingCli:1273] MeetingClient::onTransportCallHungUp iCode = 3
+[2020-05-24 13:14:47.538] [   9672] [    MAIN] [EVT] [CheckUpdate:175] Sciter script: Start downloading config at https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 13:14:48.345] [   9672] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(3008BF40)
+[2020-05-24 13:14:48.345] [   9672] [   FSAPP] [INF] [HTTPLoader.:206] BaseHTTPLoader[3008BF40] - load URL: https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update [proxy: :0]
+[2020-05-24 13:14:48.345] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[38A0D140:102]::IOStream()
+[2020-05-24 13:14:48.346] [   9672] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-24 13:14:48.346] [   9672] [    MAIN] [INF] [TrayWindow.:396] OS power state event: You are on Battery Power
+[2020-05-24 13:14:48.412] [   9672] [    MAIN] [EVT] [APIv3.tis   :68] Sciter script: [webapi] Start request PhoneNumberBinding params={ttl:14400,guid:"c868107f-ca13-4a64-beb0-9d254c8c0e04"} and null
+[2020-05-24 13:14:48.412] [   9672] [    MAIN] [INF] [WebServiceP:132] [cx][webapi] Start request
+[2020-05-24 13:14:48.412] [   9672] [    MAIN] [INF] [WebAPIv3Wra:409] [webapi] bindPhoneNumber with ttl=14400, guid=c868107f-ca13-4a64-beb0-9d254c8c0e04
+[2020-05-24 13:14:48.610] [   9672] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(3766F5C0)
+[2020-05-24 13:14:48.674] [   9672] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(38A0D140)
+[2020-05-24 13:14:48.674] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[390DEFA0:103]::IOStream()
+[2020-05-24 13:14:48.674] [   9672] [   FSAPP] [INF] [HTTPLoader.:206] BaseHTTPLoader[3766F5C0] - load URL: https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=280&sig=22b1859da11d50859ff26a02f1a92ba6 [proxy: :0]
+[2020-05-24 13:14:48.674] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[38A0CB40:104]::IOStream()
+[2020-05-24 13:14:48.674] [   9672] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(38A0CB40)
+[2020-05-24 13:14:48.675] [   9672] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[390DE238:105]::IOStream()
+[2020-05-24 13:14:48.930] [   9672] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[390DEFA0]::onResolved() ...
+[2020-05-24 13:14:48.930] [   9672] [    MAIN] [EVT] [HTTPRequest:347] Status code: httpStatus=0
+[2020-05-24 13:14:48.931] [   9672] [    MAIN] [FLT] [CheckUpdate:195] Sciter script: Error loading https://nc-appcfg01.freeconferencecall.com/config 
+[2020-05-24 13:14:48.931] [   9672] [    MAIN] [EVT] [HTTPRequest:306] Cancelled HTTP request to https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [FLT] [HTTPRequest:333] MyHTTPLoader[3008BF40] data not received for URL [https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.7079&system_version=Windows-10.1903&system_platform=win&query_action=check_update]
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[390DEFA0] closed
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[38A0D140] closed
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [DBG] [HTTPLoader.:723] BaseHTTPLoader[3008BF40] - closed (in buffer 0 bytes)
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[390DE238]::onResolved() ...
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [FLT] [HTTPLoader.:152] BaseHTTPLoader[3766F5C0] can't load URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=280&sig=22b1859da11d50859ff26a02f1a92ba6]: The requested name is valid, but no data of the requested type was found
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [EVT] [HTTPRequest:253] Status code: httpStatus=0
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [EVT] [HTTPRequest:348] Detected downloaded data type 1
+[2020-05-24 13:14:48.931] [   9672] [   FSAPP] [FLT] [HTTPRequest:243] MyHTTPLoader[3766F5C0] data not received for URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=280&sig=22b1859da11d50859ff26a02f1a92ba6]
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[390DE238] closed
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[38A0CB40] closed
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [DBG] [HTTPLoader.:723] BaseHTTPLoader[3766F5C0] - closed (in buffer 0 bytes)
+[2020-05-24 13:14:48.932] [   9672] [    MAIN] [FLT] [APIv3.tis   :89] Sciter script: [webapi] Failed request PhoneNumberBinding: error = [#network,undefined]
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [FLT] [HTTPRequest:243] MyHTTPLoader[3766F5C0] data not received for URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?access_token=0000000000ACC6DF9076504AFC603724CA07B485404C805625AE964A4CA38CAD&client_app_id=f79ef745133e8c7e&rand=280&sig=22b1859da11d50859ff26a02f1a92ba6]
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[390DEFA0:103]::~IOStream()
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(38A0D140)
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[38A0D140:102]::~IOStream()
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(3008BF40)
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[390DE238:105]::~IOStream()
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(38A0CB40)
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[38A0CB40:104]::~IOStream()
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [EVT] [HTTPRequest:437] Deleting HTTP request to https://app.freeconferencecall.com/api/v3/phonenumbers/binding
+[2020-05-24 13:14:48.932] [   9672] [   FSAPP] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(3766F5C0)
+[2020-05-24 13:14:54.696] [   9672] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-25 12:36:08.233] [   9672] [    TEAM] [EVT] [LoggingSyst:262] Rotate log to: C:\Users\syam prasad/.fcc\FCC_24-5-20.log

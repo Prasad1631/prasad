@@ -1,0 +1,173 @@
+[2020-05-01 18:40:59.376] [   4140] [    MAIN] [DBG] [preferences:205] The previous message repeated 2 times
+[2020-05-01 18:40:59.376] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty connectionresult={
+	"proxy_type"	:0,
+	"host"	:"",
+	"port"	:0,
+	"has_auth"	:false,
+	"proxy_login"	:"",
+	"proxy_pass"	:"",
+	"actual_proxy"	:""}
+[2020-05-01 18:40:59.376] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:40:59.376] [   4140] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(170C6810)
+[2020-05-01 18:40:59.376] [   4140] [   FSAPP] [INF] [HTTPLoader.:192] BaseHTTPLoader[170C6810] - load URL: https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.5530&system_version=Windows-10.1903&system_platform=win&query_action=check_update [proxy: :0]
+[2020-05-01 18:40:59.836] [   4140] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[16EA0EE0:85]::IOStream()
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:368] OS power state event: Automatic Resume Event ( PBT_APMRESUMEAUTOMATIC ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty update.notification_shownresult=true
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty update.update_inforesult={
+	"force"	:false,
+	"version"	:"3.0.7079",
+	"installer_path"	:""}
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:407] OS power state event: PBT_POWERSETTINGCHANGE
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:417] POWERBROADCAST_SETTING - GUID: {BA3E0F4D-B817-4094-A2D1-D56379E6A0F3} data size: 4
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:423] POWERBROADCAST_SETTING - lid state changed: 1
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:363] OS power state event: Resume Event ( PBT_APMRESUMESUSPEND ) Occurred & Captured.
+System is resuming after suspension
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty update.notification_shownresult=true
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty update.update_inforesult={
+	"force"	:false,
+	"version"	:"3.0.7079",
+	"installer_path"	:""}
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:381] OS power state event: Power Status Change Event (PBT_APMPOWERSTATUSCHANGE) Captured & Handled
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [TrayWindow.:392] OS power state event: You are on AC Power
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [WebServiceP:132] [cx][webapi] Start request
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [MA1] [HTTPLoader.:103] BaseHTTPLoader::BaseHTTPLoader(1811C760)
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: checkUpdates timer
+
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script:  Start downloading config at https://nc-appcfg01.freeconferencecall.com/config
+
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: looking for a disable_update at C:\Users\syam prasad\AppData\Local\FCC/disable_update
+
+[2020-05-01 18:40:59.898] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: there is no disable_update at C:\Users\syam prasad\AppData\Local\FCC/disable_update
+
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(16EA0EE0)
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[0CEE34F8:86]::IOStream()
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [INF] [HTTPLoader.:192] BaseHTTPLoader[1811C760] - load URL: https://app.freeconferencecall.com/api/v3/phonenumbers/binding?client_app_id=f79ef745133e8c7e&rand=422&sig=bfc0027a990bec30d26864a422367e7c [proxy: :0]
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [IOStream.cxx:22] SSLTransport[16EA1FE0:87]::IOStream()
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [WinSSLEngin:170] WinSSLTransport::WinSSLTransport(16EA1FE0)
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [IOStream.cxx:22] ClientConnection[0CEE3630:88]::IOStream()
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[0CEE34F8]::onResolved() ...
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [FLT] [HTTPRequest:333] MyHTTPLoader[170C6810] data not received for URL [https://nc-appcfg01.freeconferencecall.com/config?build_version=3.0.5530&system_version=Windows-10.1903&system_platform=win&query_action=check_update]
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[0CEE34F8] closed
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[16EA0EE0] closed
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [DBG] [HTTPLoader.:709] BaseHTTPLoader[170C6810] - closed (in buffer 0 bytes)
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[0CEE34F8:86]::~IOStream()
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(16EA0EE0)
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[16EA0EE0:85]::~IOStream()
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [DBG] [ClientConne:134] ClientConnection[0CEE3630]::onResolved() ...
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [FLT] [HTTPLoader.:138] BaseHTTPLoader[1811C760] can't load URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?client_app_id=f79ef745133e8c7e&rand=422&sig=bfc0027a990bec30d26864a422367e7c]: The requested name is valid, but no data of the requested type was found
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [EVT] [HTTPRequest:253] Status code: httpStatus=0
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [EVT] [HTTPRequest:348] Detected downloaded data type 1
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [FLT] [HTTPRequest:243] MyHTTPLoader[1811C760] data not received for URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?client_app_id=f79ef745133e8c7e&rand=422&sig=bfc0027a990bec30d26864a422367e7c]
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [INF] [IOStream.cx:229] ClientConnection[0CEE3630] closed
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [INF] [IOStream.cx:229] SSLTransport[16EA1FE0] closed
+[2020-05-01 18:40:59.898] [   4140] [   FSAPP] [DBG] [HTTPLoader.:709] BaseHTTPLoader[1811C760] - closed (in buffer 0 bytes)
+[2020-05-01 18:41:00.286] [   4140] [   FSAPP] [FLT] [HTTPRequest:243] MyHTTPLoader[1811C760] data not received for URL [https://app.freeconferencecall.com/api/v3/phonenumbers/binding?client_app_id=f79ef745133e8c7e&rand=422&sig=bfc0027a990bec30d26864a422367e7c]
+[2020-05-01 18:41:00.286] [   4140] [   FSAPP] [MA1] [IOStream.cxx:27] ClientConnection[0CEE3630:88]::~IOStream()
+[2020-05-01 18:41:00.286] [   4140] [   FSAPP] [MA1] [WinSSLEngin:183] WinSSLTransport::~WinSSLTransport(16EA1FE0)
+[2020-05-01 18:41:00.286] [   4140] [   FSAPP] [MA1] [IOStream.cxx:27] SSLTransport[16EA1FE0:87]::~IOStream()
+[2020-05-01 18:41:00.286] [   4140] [   FSAPP] [EVT] [HTTPRequest:437] Deleting HTTP request to https://app.freeconferencecall.com/api/v3/phonenumbers/binding
+[2020-05-01 18:41:00.286] [   4140] [   FSAPP] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(1811C760)
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [http] Start request to https://nc-appcfg01.freeconferencecall.com/config with params {type:#get,params:{query_action:#check_update,"system_platform":"win","system_version":"Windows-10.1903","build_version":"3.0.5530"},url:"https://nc-appcfg01.freeconferencecall.com/config",headers:{"Cache-control":"no-cache"},success:null /*object of class Function */,error:null /*object of class Function */} method get from view=this://app/TrayWindow.html result=undefined 
+
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [personal_number] Updating a number , guid=c868107f-ca13-4a64-beb0-9d254c8c0e04
+
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [webapi] Start request PhoneNumberBinding params={ttl:14400,guid:"c868107f-ca13-4a64-beb0-9d254c8c0e04"} and null
+
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: PresenceController onSystemResumed
+
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [INF] [HTTPRequest:347] The previous message repeated 1 times
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [EVT] [HTTPRequest:347] Status code: httpStatus=0
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [EVT] [HTTPRequest:306] Cancelled HTTP request to https://nc-appcfg01.freeconferencecall.com/config
+[2020-05-01 18:41:00.427] [   4140] [    MAIN] [MA1] [HTTPLoader.:111] BaseHTTPLoader::~BaseHTTPLoader(170C6810)
+[2020-05-01 18:41:01.742] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [http] Complete request to https://nc-appcfg01.freeconferencecall.com/config FAILED, status = 601 
+
+[2020-05-01 18:41:01.742] [   4140] [    MAIN] [FLT] [UIUtil.cpp :840] Sciter script: Error loading https://nc-appcfg01.freeconferencecall.com/config 
+
+[2020-05-01 18:41:01.742] [   4140] [    MAIN] [FLT] [UIUtil.cpp :840] Sciter script: [webapi] Failed request PhoneNumberBinding: error = [#network,undefined] 
+
+[2020-05-01 18:41:01.742] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [personal_number] Got error: undefined
+
+[2020-05-01 18:41:01.742] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: onUpdateFinished e = {status:#error,error:true}
+
+[2020-05-01 18:41:19.377] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:41:19.949] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty update.notification_shownresult=true
+[2020-05-01 18:41:19.949] [   4140] [    MAIN] [INF] [preferences:205] [debug] getProperty update.update_inforesult={
+	"force"	:false,
+	"version"	:"3.0.7079",
+	"installer_path"	:""}
+[2020-05-01 18:41:19.965] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: PresenceController onSystemUnlocked
+
+[2020-05-01 18:41:29.925] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:41:33.865] [   4140] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:41:38.974] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-01 18:41:38.974] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:41:54.365] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:41:57.986] [   4140] [   FSDCT] [EVT] [FSDesktopCa:258] The previous message repeated 18 times
+[2020-05-01 18:41:57.986] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:41:59.925] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:42:16.787] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:42:23.247] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:42:29.935] [   4140] [    MAIN] [EVT] [UIUtil.cpp :838] The previous message repeated 4 times
+[2020-05-01 18:42:29.935] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:42:33.874] [   4140] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:42:36.589] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 1 times
+[2020-05-01 18:42:36.589] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:42:38.091] [   4140] [   WSSIP] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:42:46.887] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:42:56.427] [   4140] [   FSDCT] [EVT] [FSDesktopCa:258] The previous message repeated 14 times
+[2020-05-01 18:42:56.427] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:42:59.948] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:43:16.193] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:43:25.774] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:43:29.947] [   4140] [    MAIN] [EVT] [UIUtil.cpp :838] The previous message repeated 5 times
+[2020-05-01 18:43:29.947] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:43:33.891] [   4140] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:43:36.017] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 1 times
+[2020-05-01 18:43:36.017] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:43:38.092] [   4140] [   WSSIP] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:43:50.210] [   4140] [    MAIN] [INF] [PlatformWind:92] wnd receiver 000503B0 is alive=1
+[2020-05-01 18:43:55.542] [   4140] [   FSDCT] [INF] [FSDesktopCa:258] The previous message repeated 1 times
+[2020-05-01 18:43:55.542] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:43:59.946] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:44:01.435] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:44:14.610] [   4140] [   FSDCT] [EVT] [FSDesktopCa:258] The previous message repeated 14 times
+[2020-05-01 18:44:14.610] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:44:29.938] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:44:33.407] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:44:33.891] [   4140] [    asio] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:44:52.208] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-01 18:44:52.208] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:44:59.938] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:45:03.395] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:45:11.004] [   4140] [   FSDCT] [EVT] [FSDesktopCa:258] The previous message repeated 14 times
+[2020-05-01 18:45:11.004] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:45:24.957] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:45:29.799] [   4140] [   FSDCT] [EVT] [FSDesktopCa:258] The previous message repeated 2 times
+[2020-05-01 18:45:29.799] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:45:29.943] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:45:30.376] [   4140] [    MAIN] [EVT] [UI/windows/:293] Check isBusy, m_bLoaded=1
+[2020-05-01 18:45:33.892] [   4140] [    TEAM] [EVT] [EventLoop.cx:20] The previous message repeated 1 times
+[2020-05-01 18:45:33.892] [   4140] [    TEAM] [DBG] [EventLoop.cx:20] EventLoop::setupIdleHolder ...
+[2020-05-01 18:45:40.249] [   4140] [    MAIN] [DBG] [PlatformWind:92] The previous message repeated 2 times
+[2020-05-01 18:45:40.249] [   4140] [    MAIN] [INF] [PlatformWind:92] wnd receiver 000503B0 is alive=1
+[2020-05-01 18:45:46.884] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] The previous message repeated 1 times
+[2020-05-01 18:45:46.884] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: PresenceWindow self.closing by-chrome
+
+[2020-05-01 18:45:46.884] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: Storing window position: mainView 233 11 900 705
+
+[2020-05-01 18:45:49.069] [   4140] [   FSDCT] [DBG] [FSDesktopCa:258] FSDCT reset capture engine by idle ...
+[2020-05-01 18:45:59.950] [   4140] [    MAIN] [INF] [UIUtil.cpp :838] Sciter script: [analytics][ga] sendRequests all=false
+
+[2020-05-01 18:46:06.330] [   4140] [    MAIN] [INF] [PlatformWind:92] wnd receiver 000503B0 is alive=1
